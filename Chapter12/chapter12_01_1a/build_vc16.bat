@@ -1,0 +1,1 @@
+cl /std:c++latest /experimental:module /MD /EHsc /Femain main.cpp

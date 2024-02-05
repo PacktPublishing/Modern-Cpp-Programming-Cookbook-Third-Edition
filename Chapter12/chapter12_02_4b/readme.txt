@@ -1,0 +1,1 @@
+Use build_vc17.bat to build the project using cl.exe from Visual Studio 2022 17.x.

@@ -1,0 +1,1 @@
+cl /std:c++latest /EHsc /nologo /W4 /MTd /Femain "%VCToolsInstallDir%\modules\std.ixx" main.cpp

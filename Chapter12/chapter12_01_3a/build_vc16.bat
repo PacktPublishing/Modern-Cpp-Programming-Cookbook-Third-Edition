@@ -1,0 +1,2 @@
+cl /std:c++latest /experimental:module /EHsc /MD /exportHeader /headerName:quote geometry.h /Fogeometry.h.obj
+cl /std:c++latest /experimental:module /EHsc /MD /headerUnit geometry.h=geometry.h.ifc /Femain main.cpp geometry.h.obj
