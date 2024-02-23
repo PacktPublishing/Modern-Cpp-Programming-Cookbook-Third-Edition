@@ -2,7 +2,7 @@
 
 #include <mutex>
 
-namespace recipe_8_02
+namespace recipe_8_03
 {
    class foo_rec
    {

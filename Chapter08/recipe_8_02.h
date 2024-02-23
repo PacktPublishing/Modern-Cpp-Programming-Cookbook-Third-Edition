@@ -7,7 +7,7 @@
 #include <chrono>
 #include <vector>
 
-namespace recipe_8_04
+namespace recipe_8_02
 {
    std::mutex g_mutex;
 

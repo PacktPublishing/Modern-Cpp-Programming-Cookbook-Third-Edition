@@ -6,7 +6,7 @@
 #include <vector>
 #include <exception>
 
-namespace recipe_8_03
+namespace recipe_8_04
 {
    std::mutex                       g_mutex;
    std::vector<std::exception_ptr>  g_exceptions;
