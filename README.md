@@ -76,7 +76,11 @@ This chapter explores the significant enhancements introduced in the C++20 stand
 
 
 
+
+
 > If you feel this book is for you, get your [copy](https://www.amazon.com/Modern-Programming-Cookbook-including-practical-ebook/dp/B0CLRSRWFL) today! <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
+
+
 
 
 
