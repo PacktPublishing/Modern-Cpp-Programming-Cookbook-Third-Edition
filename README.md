@@ -32,9 +32,9 @@ This chapter introduces the evolution of the C++ language through its major tran
 
 **Key Insights**:
 
-•	Using scope enumeration: updated with C++23 std::to_underlying, and std::is_scoped_enum
-•	Using range-based for loops to iterate on a range: updated with C++23 init-statement
-•	Using the subscript operator to access elements in a collection: (new) C++23 multidimensional subscript operator
+•	-	**Using scope enumeration**: updated with C++23 std::to_underlying, and std::is_scoped_enum
+•	-	**Using range-based for loops to iterate on a range**: updated with C++23 init-statement
+•	-	**Using the subscript operator to access elements in a collection**: (new) C++23 multidimensional subscript operator
 
 
 ### Chapter 02, Working with Numbers and Strings
