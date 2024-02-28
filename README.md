@@ -1,5 +1,5 @@
-# Modern C++ Programming Cookbook - 3rd Edition
-This is the code repository for **Modern C++ Programming Cookbook - 3rd Edition**, published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+# Modern C++ Programming Cookbook, 3rd Edition
+This is the code repository for [Modern C++ Programming Cookbook - 3rd Edition](https://www.packtpub.com/product/modern-c-programming-cookbook-third-edition/9781835080542), published by [Packt]. It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Beginning with the modern language features, each recipe addresses a specific problem, with a discussion that explains the solution and offers insight into how it works. You will learn major concepts about the core programming language as well as common tasks faced while building a wide variety of software from enterprise grade apps to low latency software. You will learn about concepts such as concurrency, performance, testing, and more in the form of recipes. These recipes will ensure you can make your applications secure and fast.
 ## Instructions and Navigation
