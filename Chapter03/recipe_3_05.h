@@ -1,5 +1,8 @@
 #pragma once
 
+#include <cstring>
+#include <iostream>
+#include <string>
 #include <vector>
 #include <format>
 #include <array>
@@ -17,7 +20,7 @@ namespace recipe_3_05
       template <>
       const char* minimum(const char* a, const char* b)
       {
-         return std::strcmp(a, b) <= 1 ? a : b;
+         return std::strcmp(a, b) <= 0 ? a : b;
       }
 
       // explicit instantiation of minimum<T> for char
