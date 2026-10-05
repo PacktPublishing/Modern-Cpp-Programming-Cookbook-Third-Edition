@@ -1,6 +1,8 @@
 #pragma once
 
 #include <array>
+#include <stdexcept>
+#include <vector>
 
 #ifdef __cpp_lib_mdspan
 #include <mdspan>
@@ -19,7 +21,7 @@ namespace recipe_1_15
       T const& operator[](size_t const index) const
       {
          if (index >= data.size())
-            std::runtime_error("invalid index");
+            throw std::runtime_error("invalid index");
 
          return data[index];
       }
@@ -27,7 +29,7 @@ namespace recipe_1_15
       T& operator[](size_t const index)
       {
          if (index >= data.size())
-            std::runtime_error("invalid index");
+            throw std::runtime_error("invalid index");
 
          return data[index];
       }
