@@ -77,6 +77,7 @@ namespace recipe_8_05
       std::mutex              data_mutex; // data mutex
       std::mutex              io_mutex;   // I/O mutex
       int                     data = 0;
+      bool                    ready = false; // guarded by data_mutex
 
       std::cout << "simple example start\n";
 
@@ -90,6 +91,7 @@ namespace recipe_8_05
          {
             std::unique_lock lock(data_mutex);
             data = 42;
+            ready = true;
          }
          // print message
          {
@@ -104,7 +106,7 @@ namespace recipe_8_05
          // wait for notification
          {
             std::unique_lock lock(data_mutex);
-            cv.wait(lock);
+            cv.wait(lock, [&] { return ready; });
          }
 
          {
