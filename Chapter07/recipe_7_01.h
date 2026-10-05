@@ -176,7 +176,7 @@ namespace recipe_7_01
          std::unique_ptr<int[]> input = nullptr;
          size_t readb = 0;
 
-         if (write_data("sample.bin", reinterpret_cast<char*>(output.data()), output.size() * sizeof(int)))
+         if (write_data("sample.bin", reinterpret_cast<char*>(numbers.data()), numbers.size() * sizeof(int)))
          {
             if ((readb = read_data("sample.bin",
                [&input](size_t const length) {
@@ -184,7 +184,7 @@ namespace recipe_7_01
                return reinterpret_cast<char*>(input.get());
             })) > 0)
             {
-               std::cout << (memcmp(output.data(), input.get(), output.size()) == 0 ? "equal" : "not equal") << '\n';
+               std::cout << (memcmp(numbers.data(), input.get(), numbers.size() * sizeof(int)) == 0 ? "equal" : "not equal") << '\n';
             }
          }
       }
